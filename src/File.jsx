@@ -14,7 +14,7 @@ function File() {
         placeholder="Item Name"
         onChange={(e) => setQuery(e.target.value)}
       />
-      <div class="flex-container">
+      <div className="flex-container">
         <ul>
           {foods
             .filter((item) => item.name.toLocaleLowerCase().includes(query))
