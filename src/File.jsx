@@ -8,7 +8,7 @@ function File() {
   const [query, setQuery] = useState('');
 
   return (
-    <frameElement>
+    <>
       <input
         type="text"
         placeholder="Item Name"
@@ -21,7 +21,7 @@ function File() {
             .map((item) => cardComp(item.id, item.name, item.description))}
         </ul>
       </div>
-    </frameElement>
+    </>
   );
 }
 

@@ -3,10 +3,10 @@ import React from 'react';
 const cardComponent = (key, title, desc) => {
   return (
     <div key={key}>
-      <div className="cardTitle">
+      <div>
         <h3>{title}</h3>
       </div>
-      <div className="cardDescription">
+      <div>
         <p>{desc}</p>
       </div>
     </div>
