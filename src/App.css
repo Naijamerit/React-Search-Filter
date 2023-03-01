@@ -1,0 +1,25 @@
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container > div > input {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+input[type='text'],
+select {
+  width: 60%;
+  padding: 12px 20px;
+  margin-left: 20%;
+  margin-bottom: 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
