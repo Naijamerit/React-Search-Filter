@@ -11,10 +11,7 @@ function File() {
     <frameElement>
       <input
         type="text"
-        class="form-control"
         placeholder="Item Name"
-        aria-label="Item Name"
-        aria-describedby="basic-addon1"
         onChange={(e) => setQuery(e.target.value)}
       />
       <div class="flex-container">
